@@ -14,7 +14,7 @@ module.exports = {
 
     /**
      * 
-     * @param {import("../../../Base/Apera")} client 
+     * @param {import("../../../Base/MultiBot")} client 
      * @param {import("discord.js").Message} message 
      * @param {String[]} args 
      * @param {String} prefix 

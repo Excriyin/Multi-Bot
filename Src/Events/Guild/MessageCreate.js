@@ -4,7 +4,7 @@ const { invalidArgs } = require("../../Handlers/Function");
 module.exports = new Object({
     name: "messageCreate",
     /**
-     * @param {import("../../Apera")} client
+     * @param {import("../../MultiBot")} client
      * @param {import("discord.js").Message} message
      */
     async execute(client, message) {
@@ -17,7 +17,7 @@ module.exports = new Object({
         if (message.content.match(mention)) {
             if (message.guild.members.cache.get(client.user.id).permissionsIn(message.channel).has(PermissionsBitField.Flags.SendMessages)) {
                 return await message.reply({
-                    embeds: [client.embed().setDescription(`Hey, my prefix for this server is \` ${prefix} \` Want more info? then do \` ${prefix} \`\nStay Safe, Stay Awesome!`).setColor(color)]
+                    embeds: [client.embed().setDescription(`Hey! 👋, my prefix for this server is \` ${prefix} \` Want more info? then do \` ${prefix} \`\nThanks for using me!`).setColor(color)]
                 }).catch(() => { });
             };
         };

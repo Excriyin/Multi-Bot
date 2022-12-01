@@ -3,7 +3,7 @@ const { PermissionsBitField, Collection } = require("discord.js");
 module.exports = new Object({
     name: "interactionCreate",
     /**
-     * @param {import("../../Base/Apera")} client 
+     * @param {import("../../Base/MultiBot")} client 
      * @param {import("discord.js").CommandInteraction} interaction 
      */
     async execute(client, interaction) {

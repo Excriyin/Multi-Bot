@@ -1,4 +1,4 @@
-const Apera = require("./Base/Apera"),
-    client = new Apera;
+const MultiBot = require("./Base/MultiBot"),
+    client = new MultiBot;
 
 module.exports = client;

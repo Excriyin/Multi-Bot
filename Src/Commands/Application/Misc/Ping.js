@@ -12,7 +12,7 @@ module.exports = new Object({
 
     /**
      * 
-     * @param {import("../../../Base/Apera")} client 
+     * @param {import("../../../Base/MultiBot")} client 
      * @param {import("discord.js").CommandInteraction} interaction
      */
     async execute(client, interaction, prefix, color) {

@@ -22,7 +22,7 @@ const Intents = [
     GatewayIntentBits.DirectMessages
 ]
 
-module.exports = class Apera extends Client {
+module.exports = class MultiBot extends Client {
     constructor() {
         super({
             shardCount: Cluster.data.TOTAL_SHARDS,

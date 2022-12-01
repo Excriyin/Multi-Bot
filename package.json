@@ -1,14 +1,14 @@
 {
-  "name": "v14-handler",
+  "name": "MultiBot",
   "version": "1.0.0",
-  "description": "An advance multipurpose bot",
+  "description": "An advanced opensource multipurpose bot",
   "main": "Src/Index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Src/Index.js"
   },
-  "keywords": ["best habdler for discord bot"],
-  "author": "AkAbhijit",
+  "keywords": ["multipurpose", "discord-js-v14","opensource"],
+  "author": "Excriyin#8519",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
