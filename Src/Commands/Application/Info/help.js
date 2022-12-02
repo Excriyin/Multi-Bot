@@ -51,7 +51,7 @@ module.exports = new Object({
         idle: 60000/2
       });
       collector.on("end", async () => {
-          await interaction.editReply({ components: [new ActionRowBuilder().addComponents(but1.setDisabled(true), but2.setDisabled(true), but3.setDisabled(true), but4.setDisabled(true),  but5.setDisabled(true))] }).catch(() => {});
+          await interaction.editReply({ components: [new ActionRowBuilder().addComponents(but1.setDisabled(true), but2.setDisabled(true), but3.setDisabled(true))] }).catch(() => {});
        });
       collector.on('collect', async (b) => {
         if(!b.deferred) await b.deferUpdate()

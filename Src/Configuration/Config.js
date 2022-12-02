@@ -2,7 +2,7 @@ const { ButtonStyle } = require("discord.js");
 require("dotenv").config();
 module.exports = {
     Token: process.env.Token || "", //Here Goes Your TOKEN
-    Prefix: process.env.Prefix || "?", //Here Goes Your Prefix
+    Prefix: process.env.Prefix || "m!", //Here Goes Your Prefix
     Client: {
         ID: process.env.ClientID || "", //Here Goes Your Bot Client Id
         Secret: process.env.ClientSecret || "" //Here Goes Your Bot Client Secret
