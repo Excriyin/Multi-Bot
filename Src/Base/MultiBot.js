@@ -49,7 +49,7 @@ module.exports = class MultiBot extends Client {
                 Partials.Reaction,
             ],
             presence: {
-                activities: [{ name: "You", type: ActivityType.Watching, }],
+                activities: [{ name: "/help", type: ActivityType.Watching, }],
                 status: "online"
             }
         });
@@ -139,7 +139,7 @@ module.exports = class MultiBot extends Client {
                 this.console.log(e, "error");
             };
         });
-    };
+    };Z
     _loadClientEvents() {
         let count = 0
         const eventFiles = readdirSync(join(__dirname, "..", "Events", "Client")).filter((files) => files.endsWith(".js"));
