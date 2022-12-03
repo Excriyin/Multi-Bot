@@ -37,7 +37,7 @@ npm install
 
 ## If You Need Any Support Join Support Server
 ## 💌 Support Server
-[Support Server](https://discord.gg/eCVabJbaFN) - Support Server Invite link
+[Support Server](https://discord.gg/eCVabJbaFN) - Support Server Invite link/Demo Bot
 
 ## Credits
 [Credits](https://github.com/Fluid-Devs/V14-handler) - Thanks to Fluid-Devs for the Handler!
